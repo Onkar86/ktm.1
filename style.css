@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -4px;
+}
+.logo img{
+
+  height: 115px;
+    border: px  solid rgba(0, 0, 0, 0.406);
+    border-radius: 
+}
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+width: 70%;
+
+display: flex;
+align-items: center;
+
+
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 23px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 20px;
+
+
+}
+.nav-list li a:hover{
+   
+color:gray;
+
+}
+
+.rightnav{
+
+width: 30%;
+text-align: right;
+padding-right: 6px;
+margin-top: 30px;
+}
+#search{
+    padding: 5px;
+    padding-top: 1px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+.background{
+    background: rgba(36, 26, 24, 0.498) url("file:///F:/Programing%201/KTM%20Project/img/KTM.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf{
+ width: 80%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.secondhalf{
+   width: 30%;
+ 
+}
+.secondhalf img{
+    width: 5%;
+}
+
+.text-big{
+    font-size: 80px;
+    font-family: Fort Quinsy
+}
+
+.text-small{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 2px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    background:none;
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+
+}
+.btn-dark{
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+}
+.sectionRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.paras{
+   text-align: center;
+   text-size-adjust: 10px;
+}
+.sectionTag{
+  font-size: 80px;
+    padding-left: 50%;
+}
+
+
+.sectionSubTag{
+    padding-left:60%;
+    padding-top: 1px;
+    padding-right: 5px;
+}
+.thumbnail{
+    width: 30%;
+    
+}
+.box-main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+    
+}
+.box-main3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+    flex-direction: row-reverse;
+}
+.t1{
+    margin: 2px;
+}
+.secondHalf1{
+    margin: 6px;
+}
+#classic{
+    text-align: left;
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color: rgb(2, 1, 1) to teal;
+    background-color: rgb(255, 255, 255);
+}
+
+.contact{
+    background-color: rgb(234, 226, 226);
+
+height: 833px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 20px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 35px;
+}
+.text-footer{
+    text-align: center;
+    padding: 8px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size:8px;
+    color: aliceblue;
+}
+.form{
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.form-input{
+   /* max-width: 344px;
+    margin: auto;
+    width: 100%;
+    padding: 7px; */
+
+    margin: 15px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid rgb(60, 58, 58);
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media-body(min-width: 48rem)
